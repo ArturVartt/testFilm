@@ -1,0 +1,17 @@
+.card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-content-footer {
+    font-size: 12px;
+}
+
+.card-film {
+    display: flex;
+    margin: 5px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}

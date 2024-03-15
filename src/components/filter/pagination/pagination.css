@@ -1,0 +1,15 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+}
+.pagination-btn {
+    background: #cfcfcf;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 3px 9px;
+    margin: 0 5px;
+    border-radius: 5px;
+}
+.active{
+    background: #d87575;
+}

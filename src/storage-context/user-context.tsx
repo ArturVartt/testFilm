@@ -1,0 +1,5 @@
+import { createContext } from "react";
+
+export const BEARER_TOKEN_CONTEXT = createContext(
+  "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjZGM4ZWQyNGNhODMzY2MzMzNlMDMwNGM2ODUzNTMyMyIsInN1YiI6IjY1ZGRmODhmOTAzYzUyMDE2M2JjZGE4YyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.ritO1BP9xHrA1KQCQ7qZe2isAr20BndyEzyefVzcSLA"
+);

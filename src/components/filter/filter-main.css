@@ -1,0 +1,108 @@
+.filter {
+    max-width: 370px;
+    border: 1px solid;
+    padding: 24px;
+    margin-top: 24px;
+    margin-left: 12px;
+    height: 61dvh;
+    
+}
+
+.filter-inner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.filter-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.filter-nav__title {
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+}
+
+.filter-nav__btn {
+    font-size: 10px;
+    border: 1px solid;
+    background: none;
+    padding: 3px;
+    text-transform: uppercase;
+}
+
+.filter-sort {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.filter-sort__span {
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.15px;
+}
+
+.filter-select {
+    max-width: 320px;
+    font-size: 16px;
+    line-height: 24px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+
+.filter-genre {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-bottom: 10px;
+}
+
+.filter-genre__wrapper {
+    padding-left: 10px;
+
+}
+
+.filter-genre__title {
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.filter-genre__label {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+}
+
+.filter-genre__item {
+    margin-bottom: 10px;
+}
+
+.filter-genre__input {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.filter-genre__label {
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 12px;
+    letter-spacing: 0.15px;
+}
+
+.filter-genre__items {
+    max-height: 290px;
+    overflow-y: auto;
+}
+
+.filter-genre__items::-webkit-scrollbar {
+    width: 0;
+}
